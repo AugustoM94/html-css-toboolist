@@ -9,21 +9,126 @@
 }
 header {
     background-color: white;
-    height: 70px;
+    height: 100px;
     padding: 10px;
     padding-left: 20px;
 }
-main {
-    width: 70%;
+h1 {
+    display: inline-block;
+    line-height: 70px;
+    vertical-align: top;
+    font-size: 60px;
+}
+.conteiner {
+    width: 60%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
 }
  .logo {
-    width: 100px;
+    width: 70px;
     height: auto;
  }
 
  li {
     list-style: none;
+    padding-left: 8px;
+    margin-bottom: 30px;
+    font-size: 24px;
  }
  
+.task-type {
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+    background-color: #45ABEA;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    }
+    
+ .button {
+        height: 60px;
+        border-bottom: 1px solid grey;
+        margin-bottom: 5%;
+        padding-left: 65px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        }
+
+.button-blue {
+    width: 105px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#46ACF0;
+    color: #FFFFFF;
+     font-size: 20px;
+}
+.button-white {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#FFFFFF;
+    color: lightgrey;
+     font-size: 20px;
+}
+.task-symbol {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+.green-checkmark {
+    border: #00af3d 1px solid;
+    color: #00af3d;
+}
+.red-circle {
+    border: red 1px solid;
+    color: red;
+}
+
+.size {
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+   }
+   .bg-blue {
+    background-color: #45ABEA;
+    }
+    bg-violet {
+        background-color: #9C72E4;
+    }
+    .bg-green {
+        background-color: #64C0A9;
+    }
+    .bg-orange {
+        background-color: #F29E33;
+    }
+    .bg-pink {
+     background-color:  #D863A1;
+    }
+    .bg-lightgreen {
+        background-color: #B0C926;
+    }
+    .bg-violet {
+        background-color: #9C72E4;
+    }
+    
+   span {
+    display: inline-block;
+   }
+  

@@ -11,25 +11,79 @@
     <header>
         <div >
             <img class="logo" src="img/Logo.png" alt="Logo">
-            <h1 class="Title">Toboolist</h1>
+            <h1>Toboolist</h1>
         </div>
     </header>
     <main>
-        <div class="conteiner">
-           <section>
-                  <button type="button">Add Task</button>
-                  <button type="button">Add Section</button>
+        <div class="conteiner"> 
+        <!-- Button -->
+           <section class="button">
+                  <input class="button-blue" type="button" value="Add Task">
+                  <input class="button-white" type="button" value="Add Section">
            </section>
-           <h2>&#9660; New Task</h2>
-             <ul>
-                 <li><span>&checkmark;</span> Quarterly Newsletter</li> 
-                  <span class="bg-blue">Editorial</span>
+           <!-- New Task -->
+           <section class="size">
+            <h2>&#9660; New Task</h2>
+              <ul>
+                 <li>
+                    <span  class="task-symbol green-checkmark">&checkmark;
+                    </span> Quarterly Newsletter
+                  <span class="task-type bg-blue">Editorial</span>
+                </li> 
               </ul>
-
-
-
-        </div>
-    </main>
-    
-</body>
+           </section>
+           <section class="size">
+            <!-- Today -->
+            <h2>&#9660; Today</h2>
+             <ul>
+                <li>
+                    <span  class="task-symbol green-checkmark">&checkmark;
+                    </span> Recruiting blog post
+                    <span class="task-type bg-blue">Editorial</span>
+                </li> 
+                <li>
+                    <span  class="task-symbol green-checkmark">&checkmark;
+                    </span>  Mobile app lanch
+                    <span class="task-type bg-violet">Q1 Goals</span>
+                </li> 
+                <li>
+                    <span  class="task-symbol red-circle">&checkmark;
+                    </span> Interview John H.
+                    <span class="task-type bg-green">Recruiting</span>
+                </li> 
+                <li>
+                    <span  class="task-symbol green-checkmark">&checkmark;
+                    </span> Summit update to mobile storefronts
+                    <span class="task-type bg-Orange">Mobile</span>
+                </li> 
+            </ul>
+           </section>
+           <!-- Upcoming -->
+           <section class="size"> 
+            <h2>&#9660; Upcoming</h2>
+            <ul>
+                <li>
+                    <span  class="task-symbol red-circle">&checkmark;
+                    </span> Schedule meeting with Alex
+                </li> 
+                <li>
+                    <span  class="task-symbol green-checkmark">&checkmark;
+                    </span>  Homepage refresh
+                   <span class="task-type bg-pink">Website</span>
+                </li>  
+                <li>
+                    <span  class="task-symbol green-checkmark">&checkmark;
+                    </span> Onboard new Sales team members
+                    <span class="task-type bg-lightgreen">Sales</span>
+                </li> 
+                <li>
+                    <span  class="task-symbol green-checkmark">&checkmark;
+                    </span> Review editorial calendar
+                  <span class="task-type bg-blue">Editorial</span>
+                </li> 
+            </ul>
+        </section>
+     </div>
+   </main>
+ </body>
 </html>
